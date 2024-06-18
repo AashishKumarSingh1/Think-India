@@ -149,7 +149,7 @@ export default function Navigation() {
           className="middle section bg-slate-500 fixed items-center justify-between text-black font-bold text-xl lg:text-3xl xl:text-4xl p-4 sm:p-4 w-full transition-all ease-in-out bg-opacity-20 backdrop-blur-xl flex "
           style={{ marginTop: `${navbarHeight}px`, zIndex: "50" }}
         >
-          <div className="left-Text text-sky-800 border-l-4 pl-3 border-rose-600">
+          <div className="left-Text text-white border-l-4 pl-3 border-rose-600">
             <h2 className="animate-pulse">
               <span className="moving">Namaste User</span>
               <br />
