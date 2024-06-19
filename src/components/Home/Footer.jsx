@@ -61,10 +61,10 @@ const Footer = () => {
             <br />
             India
             <br />
-            Phone : 70155590** <br />
+            {/* Phone : 70155590** <br /> */}
             Email : aashishs.ug23.cs@nitp.ac.in
             <br />
-            Linkedin :{" "}
+            LinkedIn :{" "}
             <a
               href="https://www.linkedin.com/in/aashish-kumar-singh-7110b02a9/"
               className=" no-underline text-cyan-600 hover:underline-offset-2 hover:underline"

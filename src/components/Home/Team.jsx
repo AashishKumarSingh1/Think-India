@@ -6,6 +6,7 @@ import DrawIcon from "@mui/icons-material/Draw";
 import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import CallMissedOutgoingIcon from "@mui/icons-material/CallMissedOutgoing";
 import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
+import { Link } from "react-router-dom";
 export default function Team() {
   return (
     <>
@@ -32,7 +33,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <ImportantDevicesIcon />
             </span>
-            Web Team
+            {/* Web Team */}
+            <Link to="/about">Web Team</Link>
           </div>
         </div>
 
@@ -46,7 +48,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <SatelliteAltIcon />
             </span>
-            Content & Media Team
+            {/* Content & Media Team */}
+            <Link to="/about">Content & Media Team</Link>
           </div>
         </div>
 
@@ -60,7 +63,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <AdbIcon />
             </span>
-            Android Team
+            {/* Android Team */}
+            <Link to="/about">Android Team</Link>
           </div>
         </div>
 
@@ -74,7 +78,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <DrawIcon />
             </span>
-            Design Team
+            {/* Design Team */}
+            <Link to="/about">Design Team</Link>
           </div>
         </div>
 
@@ -88,7 +93,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <AccessibilityNewIcon />
             </span>
-            Public Relations Team
+            {/* Public Relations Team */}
+            <Link to="/about">Public Relation Team</Link>
           </div>
         </div>
 
@@ -102,7 +108,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <CallMissedOutgoingIcon />
             </span>
-            Outreach Team
+            {/* Outreach Team */}
+            <Link to="/about">Outreach Team</Link>
           </div>
         </div>
 
@@ -116,7 +123,8 @@ export default function Team() {
             <span className="p-3 mr-2">
               <WebIcon />
             </span>
-            Technical Team
+            {/* Technical Team */}
+            <Link to="/about">Technical Team</Link>
           </div>
         </div>
       </div>
